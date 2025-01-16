@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+section{
+    width: 100%;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.main-box{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    flex-basis: 20%;
+}
+.menu{
+    flex-basis: 60%;
+}
+.dual-btns{
+    flex-basis: 20%;
+
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+}
+.menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 16px;
+    color: #0e72cc;
+}
+.dual-btns button {
+    font-size: 16px;
+    padding: 5px;
+    background-color: #0e72cc;
+    border: 1px solid #0e72cc;
+    border-radius: 8px;
+    color: #fff;
+}
